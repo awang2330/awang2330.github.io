@@ -268,7 +268,7 @@ footer {
 /* a phone screen size */
 @media only screen and (max-width: 400px) {
     body {
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 
     .introtext {
@@ -276,7 +276,7 @@ footer {
     }
 
     .aboutme {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     #sidebar a {

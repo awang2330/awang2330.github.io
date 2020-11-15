@@ -249,7 +249,7 @@ footer {
     }
 
     #sidebar {
-        height: 50rem;
+        max-height: 50rem;
         position: relative;
         
     }
@@ -257,12 +257,13 @@ footer {
     #sidebar a {
         display: inline;
         float: left;
+        text-align: center;
     }
 
     #sideinfo {
+        display: block;
         height: 100%;
         overflow: hidden;
-        display: block;
     }
 
 }
@@ -270,7 +271,7 @@ footer {
 /* a phone screen size */
 @media only screen and (max-width: 400px) {
     body {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .introtext {
@@ -283,13 +284,12 @@ footer {
 
     #sidebar a {
         display: block;
-        text-align: center;
         padding: 0.8rem;
     }
 
     #sideinfo { 
         display: block;
-        height: 100%;
+        height: 10rem;
     }
     
 

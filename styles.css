@@ -296,8 +296,9 @@ footer {
     }
 
     #sidebar {
-        max-height: 15rem;
+        max-height: 10rem;
         overflow: scroll;
+        text-align: center;
     }
 
     #sidebar a {
@@ -308,6 +309,7 @@ footer {
     #sideinfo { 
         display: block;
         height: 10rem;
+        overflow: scroll;
     }
     
 

@@ -280,13 +280,14 @@ footer {
     }
 
     #sidebar a {
+        display: block;
         text-align: center;
         float: none;
     }
 
     #sideinfo { 
         display: block;
-        height: 3rem;
+        height: 1rem;
     }
     
 

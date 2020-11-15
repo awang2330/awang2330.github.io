@@ -248,12 +248,12 @@ footer {
         max-width: 100%;
     }
 
-    #sidebar {
+    /* #sidebar {
         max-height: 50rem;
         position: relative;
-        
-    }
-
+        overflow: hidden;
+    } */
+/* 
     #sidebar a {
         display: inline;
         float: left;
@@ -263,6 +263,21 @@ footer {
     #sideinfo {
         display: block;
         height: 100%;
+        overflow: hidden;
+    } */
+
+    #sidebar {
+        max-height: 15rem;
+        overflow: scroll;
+    }
+    #sidebar a {
+        display: block;
+        padding: 0.8rem;
+    }
+
+    #sideinfo { 
+        display: block;
+        height: 10rem;
         overflow: hidden;
     }
 
@@ -275,13 +290,18 @@ footer {
     }
 
     .introtext {
-        margin: 1rem auto;
+        margin: auto 1rem;
     }
 
     .aboutme {
         padding: 0.5rem;
     }
 
+    #sidebar {
+        max-height: 15rem;
+        overflow: scroll;
+    }
+    
     #sidebar a {
         display: block;
         padding: 0.8rem;

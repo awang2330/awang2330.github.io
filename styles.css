@@ -127,6 +127,7 @@ nav a:hover {
 
 #sidebar a:hover {
     background-color: rgba(251, 196, 171, 0.4);
+    color: rgba(0, 7, 8, 0.9);
 }
 
 #sideinfo {
@@ -146,46 +147,69 @@ nav a:hover {
 
 
 /* PROJECTS */
-.flex-align {
-    display: flex;
+.projects {
+    max-width: 90%;;
+}
 
-    /*space around margins and between elements*/
-    justify-content: space-around;
+.grid {
+    display: flex;
 
     /*items in a row*/
     flex-direction: row;
 
     /*items in a row centered*/
     align-items: center;
-    width: 80%;
-    margin: 0 auto 10rem;
+
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
-.left {
-    /* grid-column: 2/5; */
-    max-width: 40%;
-    max-height: 30rem;
+.box {
+    background-color: rgba(190, 124, 235, 0.4);
     display: inline-block;
-    
-    /*fit the image on div container*/
+    width: 19rem;
+    height: 19rem;
+    border-radius: 1rem;
+    margin: 1rem;
     overflow: hidden;
+    text-align: center;
 
-
-    /*curved edges*/
-    border-radius: 10px;
-    box-shadow: 0.5rem 0.5rem 1rem rgba(12, 18, 20, 0.14);
-
+    /* needed so .projtext is in div*/
+    position: relative;
 }
-.right {
-    /* display: flex; */
-    display: inline-block;
-    max-width: 40%;
+
+.projtext {
+    display: block;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 3.5rem;
 }
+
+#projdes1, #projdes2, #projdes3, #projdes4, #projdes5 {
+    display: block;
+    transition: 0.5s;
+}
+
+#proj1, #proj2, #proj3, #proj4, #proj5 {
+    display: none;
+    background-color: rgba(221, 123, 136, 0.7);
+    height: 100%;
+    transition: 0.2s;
+    
+}
+
+
+/* No image yet */
+/* .box img {
+    height: 25rem;
+    object-fit: contain;
+
+} */
 
 footer {
     display: block;
-    background-color: rgba(124, 191, 202, 0.8);
+    /* background-color: rgba(124, 191, 202, 0.8); */
     width: 60%;
     margin: 0 auto;
     padding: 3rem;

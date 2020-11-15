@@ -188,15 +188,12 @@ nav a:hover {
 
 #projdes1, #projdes2, #projdes3, #projdes4, #projdes5 {
     display: block;
-    transition: 0.5s;
 }
 
 #proj1, #proj2, #proj3, #proj4, #proj5 {
     display: none;
     background-color: rgba(221, 123, 136, 0.7);
     height: 100%;
-    transition: 0.2s;
-    
 }
 
 

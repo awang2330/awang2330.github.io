@@ -31,49 +31,74 @@ for (var i = 0; i < sides.length; ++i) {
 
 
 /* When the user hovers over any projects they will show description */
-document.getElementById("box1").addEventListener("mouseover", function() {
-  trasitio
+document.getElementById("box1").addEventListener("click", function() {
+  // var dis = document.getElementById('projdes1').style.display;
+  if (document.getElementById('projdes1').style.display == "none") {
+    document.getElementById('projdes1').style.display = "block";
+    document.getElementById('proj1').style.display = "none";
+  } else {
     document.getElementById('projdes1').style.display = "none";
     document.getElementById('proj1').style.display = "block";
+  }
 })
-document.getElementById("box2").addEventListener("mouseover", function() {
+document.getElementById("box2").addEventListener("click", function() {
+  if (document.getElementById('projdes2').style.display == "none") {
+    document.getElementById('projdes2').style.display = "block";
+    document.getElementById('proj2').style.display = "none";
+  } else {
   document.getElementById('projdes2').style.display = "none";
   document.getElementById('proj2').style.display = "block";
+  }
 })
-document.getElementById("box3").addEventListener("mouseover", function() {
+document.getElementById("box3").addEventListener("click", function() {
+  if (document.getElementById('projdes3').style.display == "none") {
+    document.getElementById('projdes3').style.display = "block";
+    document.getElementById('proj3').style.display = "none";
+  } else {
   document.getElementById('projdes3').style.display = "none";
   document.getElementById('proj3').style.display = "block";
+  }
 })
-document.getElementById("box4").addEventListener("mouseover", function() {
+document.getElementById("box4").addEventListener("click", function() {
+  if (document.getElementById('projdes4').style.display == "none") {
+    document.getElementById('projdes4').style.display = "block";
+    document.getElementById('proj4').style.display = "none";
+  } else {
   document.getElementById('projdes4').style.display = "none";
   document.getElementById('proj4').style.display = "block";
+  }
 })
-document.getElementById("box5").addEventListener("mouseover", function() {
+document.getElementById("box5").addEventListener("click", function() {
+  if (document.getElementById('projdes5').style.display == "none") {
+    document.getElementById('projdes5').style.display = "block";
+    document.getElementById('proj5').style.display = "none";
+  } else {
   document.getElementById('projdes5').style.display = "none";
   document.getElementById('proj5').style.display = "block";
+  }
 })
 
 /* When the user hovers out any projects, they will return to image */
-document.getElementById("box1").addEventListener("mouseout", function() {
-    document.getElementById('projdes1').style.display = "block";
-    document.getElementById('proj1').style.display = "none";
-})
-document.getElementById("box2").addEventListener("mouseout", function() {
-  document.getElementById('projdes2').style.display = "block";
-  document.getElementById('proj2').style.display = "none";
-})
-document.getElementById("box3").addEventListener("mouseout", function() {
-  document.getElementById('projdes3').style.display = "block";
-  document.getElementById('proj3').style.display = "none";
-})
-document.getElementById("box4").addEventListener("mouseout", function() {
-  document.getElementById('projdes4').style.display = "block";
-  document.getElementById('proj4').style.display = "none";
-})
-document.getElementById("box5").addEventListener("mouseout", function() {
-  document.getElementById('projdes5').style.display = "block";
-  document.getElementById('proj5').style.display = "none";
-})
+// document.getElementById("box1").addEventListener("mouseout", function() {
+//     document.getElementById('projdes1').style.display = "block";
+//     document.getElementById('proj1').style.display = "none";
+// })
+// document.getElementById("box2").addEventListener("mouseout", function() {
+//   document.getElementById('projdes2').style.display = "block";
+//   document.getElementById('proj2').style.display = "none";
+// })
+// document.getElementById("box3").addEventListener("mouseout", function() {
+//   document.getElementById('projdes3').style.display = "block";
+//   document.getElementById('proj3').style.display = "none";
+// })
+// document.getElementById("box4").addEventListener("mouseout", function() {
+//   document.getElementById('projdes4').style.display = "block";
+//   document.getElementById('proj4').style.display = "none";
+// })
+// document.getElementById("box5").addEventListener("mouseout", function() {
+//   document.getElementById('projdes5').style.display = "block";
+//   document.getElementById('proj5').style.display = "none";
+// })
 
 }); // window loaded
 

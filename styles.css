@@ -249,8 +249,9 @@ footer {
     }
 
     #sidebar {
-        height: auto;
+        height: 50rem;
         position: relative;
+        
     }
 
     #sidebar a {
@@ -261,6 +262,7 @@ footer {
     #sideinfo {
         height: 100%;
         overflow: hidden;
+        display: block;
     }
 
 }
@@ -282,12 +284,12 @@ footer {
     #sidebar a {
         display: block;
         text-align: center;
-        float: none;
+        padding: 0.8rem;
     }
 
     #sideinfo { 
         display: block;
-        height: 1rem;
+        height: 100%;
     }
     
 

@@ -248,12 +248,11 @@ footer {
         max-width: 100%;
     }
 
-    /* #sidebar {
+    #sidebar {
         max-height: 50rem;
         position: relative;
-        overflow: hidden;
-    } */
-/* 
+    } 
+
     #sidebar a {
         display: inline;
         float: left;
@@ -264,9 +263,9 @@ footer {
         display: block;
         height: 100%;
         overflow: hidden;
-    } */
+    } 
 
-    #sidebar {
+    /* #sidebar {
         max-height: 15rem;
         overflow: scroll;
     }
@@ -279,14 +278,14 @@ footer {
         display: block;
         height: 10rem;
         overflow: hidden;
-    }
+    } */
 
 }
 
 /* a phone screen size */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 380px) {
     body {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .introtext {
@@ -301,7 +300,7 @@ footer {
         max-height: 15rem;
         overflow: scroll;
     }
-    
+
     #sidebar a {
         display: block;
         padding: 0.8rem;
